@@ -13,9 +13,9 @@
     </h2>
      
     <form class="container" id="contactForm">
-        <div class="card">
-            <div class="card-body">
-                <div class="form-group">
+        <class="card">
+            <class="card-body">
+                <class="form-group">
                     <label for="exampleFormControlInput1">
                         Enter Your Name
                     </label>
@@ -23,7 +23,7 @@
                     <input type="text" class="form-control"
                     id="name" placeholder="Enter your name"
  
-                <div class="form-group">
+                <class="form-group">
                     <label for="exampleFormControlInput1">
                         Email address
                     </label>
@@ -34,7 +34,6 @@
                 style="margin-left: 15px; margin-top: 10px">
                 Submit
             </button>
-        </div>
     </form>
  
     <script src=
@@ -67,7 +66,7 @@ mode_edit",
             // Get values
             var name = getInputVal('name');
             var email = getInputVal('email');
-            saveMessage(name, email, password);
+            saveMessage(name, email);
             document.getElementById('contactForm').reset();
         }
  
